@@ -1,4 +1,3 @@
-import './App.css';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Features from './components/Features';
