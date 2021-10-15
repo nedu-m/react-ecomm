@@ -31,32 +31,18 @@ export default function Content() {
             </span>{' '}
             For Everyone
           </h2>
-          <p className="mb-4 text-2xl leading-relaxed font-medium lg:mb-6">
+          <p className="mb-4 text-2xl leading-relaxed font-sans subpixel-antialiased lg:mb-6">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             laudantium, totam rem aperiam, eaque ipsa quae explicabo.
           </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-            <svg
-              className="inline-block w-3 ml-2"
-              fill="currentColor"
-              viewBox="0 0 12 12"
-            >
-              <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-            </svg>
-          </a>
         </div>
         <div className="flex-grow pt-1">
-          <div className="grid grid-cols-2 row-gap-6 sm:grid-cols-4">
+          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4">
             <ul className="space-y-2">
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Accessories
                 </a>
@@ -64,7 +50,7 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Bags
                 </a>
@@ -72,15 +58,15 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  Hoodies & Sweatshirts
+                  Hoodies
                 </a>
               </li>
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Jackets
                 </a>
@@ -90,7 +76,7 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Jeans
                 </a>
@@ -98,7 +84,7 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Shirts
                 </a>
@@ -106,7 +92,7 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Shorts
                 </a>
@@ -114,9 +100,9 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  Shoes & Boots
+                  Shoes
                 </a>
               </li>
             </ul>
@@ -124,15 +110,15 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  Sunglass
+                  Tees
                 </a>
               </li>
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Swimwears
                 </a>
@@ -140,7 +126,7 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
                   Skirts
                 </a>
@@ -148,48 +134,26 @@ export default function Content() {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  Lingerie & Nightwear
-                </a>
-              </li>
-            </ul>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
-                >
-                  Socks & Tights
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
-                >
-                  Jumpsuits & Playsuits
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
-                >
-                  Tops
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="transition-colors duration-300 hover:text-deep-purple-accent-700"
-                >
-                  Underwears
+                  Lingerie
                 </a>
               </li>
             </ul>
           </div>
         </div>
+        <div className="grid grid-rows-3 grid-flow-col gap-5 p-4 mx-auto md:grid-cols-4">
+		        <img src="https://source.unsplash.com/302x302/?random" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-coolGray-500" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/200x200/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/201x201/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/202x202/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/203x203/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/204x204/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/205x205/?random" />
+		        <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/206x206/?random" />
+          	<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-coolGray-500" src="https://source.unsplash.com/207x207/?random" />
+		        <img src="https://source.unsplash.com/302x302/?random" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-coolGray-500" />
+	        </div>
       </div>
     </div>
   );
